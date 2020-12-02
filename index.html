@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!-- Оболочка документа -->
+<html lang="ru">
+
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+    <title>Главная</title>
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <link rel="shortcut icon" href="img/svg/logo.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!-- ОБОЛОЧКА -->
+    <div class="wrapper">
+<header class="header">
+    <div class="container">
+        <div class="header__body">
+            <div class="header__row header__mob-second">
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="img/svg/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="header__text">
+                    <div class="header__title">Екатеринбург, ул. 8 Марта, 171</div>
+                    <div class="header__title">Екатеринбург, ул. Куйбышева, 48/1</div>
+                    <div class="header__title">Екатеринбург, ул. Шейнкмана 121</div>
+                </div>
+            </div>
+            <div class="header__row header__padding">
+                    <div class="header__select">
+                        <a href="#" class="header__select-link">EN/RU</a>
+                    </div>
+                    <a href="tel:+79998887766" class="header__phone">+7 (999) 888-77-66</a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="header__menu">
+            <div class="container">
+                <ul class="header__list">
+                    <li class="header__li">
+                        <a href="#" class="header__link">Девушки</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#" class="header__link">Услуги</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#" class="header__link">Акции</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#" class="header__link">О нас</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#" class="header__link">Блог</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#" class="header__link">Контакты</a>
+                    </li>
+                    <li class="header__li">
+                        <a href="#" class="header__link">Вакансии</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+</header>
+        <section class="section-contact">
+            <div class="container">
+                <div class="contact">
+                    <div class="contact__left">
+                        <h2 class="vip__title vip__padding-contact">Контакты</h2>
+                        <div class="contact__content">
+                            <div class="contact__item">
+                                <img src="img/svg/time.svg" alt="">
+                                <h3 class="contact__title">Часы работы</h3>
+                                <p class="contact__text">Круглосуточно, 24/7</p>
+                            </div>
+                            <div class="contact__item">
+                                <img src="img/svg/phone.svg" alt="">
+                                <h3 class="contact__title">Телефон</h3>
+                                <p class="contact__text">+7 (999) 777-66-55</p>
+                            </div>
+                            <div class="contact__item">
+                                <img src="img/svg/adress.svg" alt="">
+                                <h3 class="contact__title">Адрес</h3>
+                                <p class="contact__text">Екатеринбург, ул. 8 Марта, 171</p>
+                                <p class="contact__text">Екатеринбург, ул. Куйбышева, 48/1</p>
+                                <p class="contact__text">Екатеринбург, ул. Шейнкмана 121</p>
+                            </div>
+                        </div>
+                        <div class="contact__info">
+                            <a href="#">
+                                <img src="img/info.webp" alt="">
+                            </a>
+                        </div>
+                        
+                            <form action="" class="main-form">
+                                <div class="contact__form">
+                                    <input type="text" class="contact__input contact__form-item" placeholder="Имя">
+                                    <input type="text" onkeyup="this.value = this.value.replace(/[^\d+]/g,'');" class="contact__input contact__form-item" placeholder="Телефон">
+                                    <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" class="contact__input contact__form-item" placeholder="Удобная дата">
+                                    <input type="text" onfocus="(this.type='time')" onblur="(this.type='text')" class="contact__input contact__form-item" placeholder="Удобное время">
+                                </div>
+                                <button class="vip__btn">ЗАПИСАТЬСЯ</button>
+                            </form>
+                    </div>
+                    <div class="contact__right">
+                        <img src="img/map.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__top">
+            <div class="footer__wrapper-svg footer__logo">
+                <img src="img/svg/footer.svg" alt="">
+            </div>
+            <div class="footer__wrapper-svg">
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="img/svg/logo.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__menu footer__menu">
+        <div class="container">
+            <ul class="header__list">
+                <li class="header__li">
+                    <a href="#" class="header__link">Девушки</a>
+                </li>
+                <li class="header__li">
+                    <a href="#" class="header__link">Услуги</a>
+                </li>
+                <li class="header__li">
+                    <a href="#" class="header__link">Акции</a>
+                </li>
+                <li class="header__li">
+                    <a href="#" class="header__link">О нас</a>
+                </li>
+                <li class="header__li">
+                    <a href="#" class="header__link">Блог</a>
+                </li>
+                <li class="header__li">
+                    <a href="#" class="header__link">Контакты</a>
+                </li>
+                <li class="header__li">
+                    <a href="#" class="header__link">Вакансии</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer__bottom">
+            <div class="footer__item">
+                <div class="contact__item footer__subitem">
+                    <img src="img/svg/time.svg" alt="">
+                    <h3 class="contact__title">Часы работы</h3>
+                    <p class="contact__text">Круглосуточно, 24/7</p>
+                </div>
+            </div>
+            <div class="footer__item">
+                <div class="contact__item footer__subitem">
+                    <img src="img/svg/adress.svg" alt="">
+                    <h3 class="contact__title">Адрес</h3>
+                    <p class="contact__text">Екатеринбург, ул. 8 Марта, 171</p>
+                    <p class="contact__text">Екатеринбург, ул. Куйбышева, 48/1</p>
+                    <p class="contact__text">Екатеринбург, ул. Шейнкмана 121</p>
+                </div>
+            </div>
+            <div class="footer__item">
+                <div class="contact__item footer__subitem">
+                    <img src="img/svg/phone.svg" alt="">
+                    <h3 class="contact__title">Телефон</h3>
+                    <p class="contact__text"><a href="tel:+79998887766" class="footer__phone">+7 (999) 777-66-55</a></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</footer>    </div>
+
+ <!-- попап -->
+    <div class="popup js-popup" data-id-popup="popup-0">
+        <div class="popup__opas"></div>
+        <div class="popup__wrapp js-popup__wrapp">
+            <span class="popup__close js-popup__close"></span>
+            <div class="popup_container">
+                <h2>Попап</h2>
+            </div>
+        </div>
+    </div>
+ <!-- кнопка прокрутки вверх -->
+    <div class="scroll-up js-scroll-up">
+        <svg class="scroll-up__svg" viewBox="-2 -2 52 52">
+            <path class="scroll-up__path js-scroll-up__path" d="M24,0 a24,24 0 0,1 0,48 a24,24 0 0,1 0,-48"/>
+        </svg>
+    </div>
+    
+    <!-- Подключеине скриптов -->
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
